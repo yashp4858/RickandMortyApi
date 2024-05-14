@@ -1,0 +1,15 @@
+.input {
+    width: 40%;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 10px 15px;
+    &:focus {
+        outline: none;
+    }
+}
+
+@media (max-wdith: 576px){
+    .input{
+        width: 80%;
+    }
+}
